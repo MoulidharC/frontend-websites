@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+.background {
+    background-image: url("https://d2clawv67efefq.cloudfront.net/ccbp-static-website/newsbg.png");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+/* Card */
+.card {
+    background-color: #ffffff;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    padding: 28px;
+    box-shadow: 0 -4px 25px rgba(0, 0, 0, 0.18);
+    animation: fadeUp 0.7s ease-in-out;
+}
+
+/* Heading */
+.heading {
+    color: #1b263b;
+    font-family: "Poppins";
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+/* Main title */
+.para1 {
+    font-family: "Poppins";
+    font-size: 20px;
+    font-weight: 600;
+    color: #0d1b2a;
+    margin-bottom: 12px;
+}
+
+/* Description text */
+.para {
+    color: #5c6b7a;
+    font-family: "Poppins";
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+/* Button */
+.button {
+    color: white;
+    background-color: #1d3557;
+    width: 140px;
+    height: 42px;
+    border-radius: 8px;
+    border: none;
+    font-family: "Poppins";
+    font-size: 14px;
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+
+.button:hover {
+    background-color: #457b9d;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(69, 123, 157, 0.35);
+}
+
+/* Animation */
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
