@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* Global */
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    background-color: #f7f9fc;
+    color: #183b56;
+}
+
+/* Homepage Image */
+.conference-image {
+    width: 100vw;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+/* Homepage Text Container */
+.conference-text-container {
+    text-align: center;
+    padding: 25px;
+    background: #ffffff;
+    margin: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.Conference-title {
+    font-size: 36px;
+    font-weight: 700;
+    color: #102a43;
+}
+
+.conference-description {
+    color: #627d98;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-radius: 30px;
+    padding: 10px 20px;
+    border: none;
+    font-weight: 500;
+}
+
+/* Detail Page */
+#sectionConferenceDetailPage {
+    padding: 20px;
+    display: none;
+}
+
+.embed-responsive {
+    border-radius: 15px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+/* Title & Description */
+.conference-details-title {
+    font-size: 28px;
+    font-weight: 700;
+    color: #102a43;
+}
+
+.conference-details-description {
+    color: #627d98;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+/* Stats Section */
+.conference-stats-container {
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    width: 130px;
+    margin: 15px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease-out;
+}
+
+.conference-stats-container:hover {
+    transform: translateY(-5px);
+}
+
+.conference-stats-count {
+    font-size: 26px;
+    font-weight: 700;
+    color: #007bff;
+}
+
+.conference-stats-labels {
+    font-size: 15px;
+    color: #627d98;
+    font-weight: 500;
+}
+
+/* Back Button */
+#sectionConferenceDetailPage button {
+    margin-top: 15px;
+    padding: 10px 24px;
+    border-radius: 25px;
+}
