@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+}
+
+.Quiz-container{
+    background-color: #875FC0; /* Purple */
+    min-height: 100vh;
+    padding: 40px 20px;
+}
+
+.score {
+    color: #FFFFFF;
+    text-align: right;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.Quiz-question {
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    padding: 25px;
+    margin-bottom: 25px;
+    box-shadow: 0px 4px 8px #00000020;
+}
+
+.Quiz-question h1 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #1E293B;
+    margin-bottom: 10px;
+}
+
+.Quiz-question p {
+    font-size: 17px;
+    color: #475569;
+}
+
+.image {
+    width: 100%;
+    max-width: 360px;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+.option-list {
+    list-style: none;
+    padding: 0;
+}
+
+.option {
+    background-color: #FFFFFF;
+    color: #323F4B;
+    border: 2px solid #323F4B;
+    padding: 12px;
+    border-radius: 8px;
+    margin: 10px 0;
+    font-size: 16px;
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+
+.option:hover {
+    background-color: #F1F5F9;
+    cursor: pointer;
+}
+
+.correct-option {
+    background-color: #875FC0;
+    border-color: #875FC0;
+    color: #FFFFFF;
+}
+
+.button {
+    background-color: #FBAF00;
+    color: #FFFFFF;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    width: 120px;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+.button:hover {
+    background-color: #E19C00;
+    cursor: pointer;
+}
