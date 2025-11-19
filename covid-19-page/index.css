@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+.background {
+    background-color: #ffffff;
+    background-size: cover;
+    margin: 50px;
+}
+
+.head1 {
+    font-family: "Roboto";
+    font-size: 18px;
+    color: #323f4b;
+}
+
+.card {
+    background-color: #0967d219;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.top-img {
+    width: 200px;
+}
+
+.image {
+    height: 100px;
+    width: 100px;
+}
+
+.small-card {
+    border-radius: 10px;
+    width: 80px;
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 12px;
+    margin: 10px;
+    padding: 8px;
+}
+
+.card1 {
+    background-color: #3ebd93; /* Hex code version of green */
+}
+
+.card2 {
+    background-color: #e668a7; /* Hex code version of pink */
+}
+
+.card3 {
+    background-color: #a368fc; /* Hex code version of purple */
+}
+
+.bottom-card {
+    background-color: #e12d3919;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.margin {
+    margin: 15px;
+}
+
+.doctor {
+    height: 90px;
+}
+
+.para {
+    font-family: "Roboto";
+    font-weight: 500;
+    color: #707070;
+}
+
+.para1 {
+    font-family: "Roboto";
+    font-weight: 500;
+    color: #ffffff;
+}
