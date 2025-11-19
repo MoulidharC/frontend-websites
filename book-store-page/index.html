@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popular Books</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+
+    <div id="sectionHomepage" style="display: block;">
+        <div class="background">
+            <h1 class="main-head mt-2 mb-3">Popular Book</h1>
+
+            <!-- Wing of Fire section -->
+            <div class="abdul-container d-flex flex-row margin fade-in">
+                <img src="https://d2clawv67efefq.cloudfront.net/ccbp-static-website/book-apj-img.png" class="abdul-image" />
+                <div class="m-4">
+                    <h3 class="abdul-head">Wings of Fire</h3>
+                    <p class="abdul-para">An Autobiography of <br>Abdul Kalam</p>
+                    <p class="abdul-author">by Arun Tiwari</p>
+                    <button class="btn btn-primary" onclick="display('section-detail-page1'); window.scrollTo(0,0);">Read Now</button>
+                </div>
+            </div>
+
+            <!-- Recommended Books -->
+            <h2 class="main-head mt-4">Recommended Books</h2>
+
+            <div class="d-flex flex-row fade-in">
+                <img src="https://d2clawv67efefq.cloudfront.net/ccbp-static-website/book-chetan-bhagat-img.png" class="image" />
+                <div class="mt-2">
+                    <h3 class="main-head">The 3 Mistakes of My Life</h3>
+                    <p class="down-para">Indian author<br>by Chetan Bhagat</p>
+                    <button class="btn btn-primary" onclick="display('section-detail-page2'); window.scrollTo(0,0);">Read Now</button>
+                </div>
+            </div>
+
+            <div class="d-flex flex-row fade-in">
+                <img src="https://d2clawv67efefq.cloudfront.net/ccbp-static-website/harrypotter-img.png" class="image" />
+                <div class="mt-2">
+                    <h3 class="main-head">Harry Potter</h3>
+                    <p class="down-para">and the Sorcerer's Stone<br>by J.K. Rowling</p>
+                    <button class="btn btn-primary" onclick="display('section-detail-page3'); window.scrollTo(0,0);">Read Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- DETAIL PAGE - WINGS OF FIRE -->
+    <div id="section-detail-page1" style="display: none;">
+        <div class="detail-background">
+            <img src="https://d2clawv67efefq.cloudfront.net/ccbp-static-website/book-apj-img.png" class="detail-image" />
+
+            <h1 class="detail-title">Wings of Fire</h1>
+            <p class="detail-abdul-author">by Arun Tiwari</p>
+
+            <p class="detail-text">
+                Every common man who, by his sheer grit and hard work, achieves success should share his story with the
+                rest, for they may find inspiration and strength. "Wings of Fire" is an autobiography by the visionary
+                scientist Dr. A.P.J. Abdul Kalam. From humble beginnings, he rose to become the President of India.
+                This book is filled with life experiences, personal stories, and valuable insights from his remarkable
+                journey.
+            </p>
+
+            <button class="btn btn-warning" onclick="display('sectionHomepage'); window.scrollTo(0,0);">Back</button>
+            <button class="btn btn-primary">Buy Now</button>
+        </div>
+    </div>
+
+    <!-- DETAIL PAGE - 3 MISTAKES OF MY LIFE -->
+    <div id="section-detail-page2" style="display: none;">
+        <div class="detail-background">
+            <img src="https://d2clawv67efefq.cloudfront.net/ccbp-static-website/book-chetan-bhagat-img.png" class="detail-image" />
+
+            <h1 class="detail-title">The 3 Mistakes of My Life</h1>
+            <p class="detail-abdul-author">by Chetan Bhagat</p>
+
+            <p class="detail-text">
+                "The 3 Mistakes of My Life" is the third novel by the famous Indian author Chetan Bhagat. Based on
+                cricket, business, and religion, the story is set in Ahmedabad. It revolves around three young men —
+                Omi, Ishaan, and Govind — who are trying to achieve success. Based on real events, the book begins with
+                a dramatic email sent by Govind, setting the tone for an emotional and inspiring journey.
+            </p>
+
+            <button class="btn btn-warning" onclick="display('sectionHomepage'); window.scrollTo(0,0);">Back</button>
+            <button class="btn btn-primary">Buy Now</button>
+        </div>
+    </div>
+
+    <!-- DETAIL PAGE - HARRY POTTER -->
+    <div id="section-detail-page3" style="display: none;">
+        <div class="detail-background">
+            <img src="https://d2clawv67efefq.cloudfront.net/ccbp-static-website/harrypotter-img.png" class="detail-image" />
+
+            <h1 class="detail-title">Harry Potter</h1>
+            <p class="detail-abdul-author">by J.K. Rowling</p>
+
+            <p class="detail-text">
+                Harry Potter's life is miserable. His parents are dead, and he is forced to live with his cruel
+                relatives who make him stay in a small room under the stairs. His life changes when he receives a letter
+                revealing the truth — he is a wizard. A mysterious visitor rescues him and takes him to Hogwarts School
+                of Witchcraft and Wizardry, where Harry finally begins to feel like he truly belongs.
+            </p>
+
+            <button class="btn btn-warning" onclick="display('sectionHomepage'); window.scrollTo(0,0);">Back</button>
+            <button class="btn btn-primary">Buy Now</button>
+        </div>
+    </div>
+
+    <script src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+    <script>
+        function display(sectionId) {
+            document.getElementById("section-detail-page3").style.display = "none";
+            document.getElementById("section-detail-page2").style.display = "none";
+            document.getElementById("section-detail-page1").style.display = "none";
+            document.getElementById("sectionHomepage").style.display = "none";
+
+            document.getElementById(sectionId).style.display = "block";
+        }
+
+
+    </script>
+
+</body>
+
+</html>

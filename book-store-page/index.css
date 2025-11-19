@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+}
+
+/* HOME PAGE */
+.background {
+    background-color: #1b1b1b;
+    padding: 20px;
+    min-height: 100vh;
+}
+
+.main-head {
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.abdul-container {
+    background-color: #e6f6ff;
+    border-radius: 16px;
+    transition: 0.3s;
+}
+
+.abdul-container:hover {
+    transform: scale(1.03);
+}
+
+.abdul-head {
+    color: #183b56;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.abdul-para {
+    color: #0b0b0b;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.abdul-author {
+    color: #183b56;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.abdul-image {
+    height: 200px;
+    width: 130px;
+    border-radius: 10px;
+}
+
+.image {
+    height: 140px;
+    width: 100px;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+.down-para {
+    color: #c9ced6;
+    font-size: 13px;
+}
+
+/* DETAIL PAGE */
+.detail-background {
+    background-color: #1b1b1b;
+    padding: 20px;
+    text-align: center;
+    min-height: 100vh;
+    padding: 100px 20px;
+}
+
+.detail-image {
+    height: 300px;
+    width: 200px;
+    border-radius: 12px;
+    margin-top: 20px;
+}
+
+.detail-title {
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.detail-abdul-author {
+    color: #9aa5b1;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.detail-text {
+    color: #d7dfe9;
+    font-size: 15px;
+    line-height: 1.6;
+    padding: 10px 20px;
+}
+
+/* ANIMATION */
+.fade-in {
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
