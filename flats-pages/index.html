@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Flates Page</title>
+</head>
+
+<body>
+    <div id="sectionHome">
+        <div class="sunrise-Home-page d-flex flex-column justify-content-end fade-in">
+            <div class="sunrise-Home-page-Container slide-up">
+                <h1 class="sunrise-Home-page-head">Sunrise Avenue</h1>
+                <p class="sunrise-Home-page-para">Move to what moves you</p>
+                <button class="btn button hover-scale" onclick="display('sectionDetailPage')">Book Flat</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="sectionDetailPage">
+        <div class="sunrise-detail-page-background p-3 fade-in d-flex flex-column justify-content-around">
+            <h1 class="sunrise-Home-page-head">Sunrise Avenue</h1>
+
+            <div class="d-flex flex-row card-hover">
+                <img src="https://assets.ccbp.in/frontend/static-website/flats-list-card1-img.png" class="image1" />
+                <div class="sunrise-Detail-page-Container p-2">
+                    <h1 class="sunrise-detail-head" onclick="display('section3BHK')">3BHK Flat</h1>
+                    <p class="sunrise-Home-page-para">This is a fully furnished house with handmade furniture...</p>
+                </div>
+            </div>
+
+            <div class="d-flex flex-row mt-2 card-hover" onclick="display('section2BHK')">
+                <img src="https://assets.ccbp.in/frontend/static-website/flats-list-card2-img.png" class="image1" />
+                <div class="sunrise-Detail-page-Container p-2">
+                    <h1 class="sunrise-detail-head">2BHK Flat</h1>
+                    <p class="sunrise-Home-page-para">A minimalist house made for modern-day families...</p>
+                </div>
+            </div>
+
+            <div class="d-flex flex-row mt-2 card-hover" onclick="display('section4BHK')">
+                <img src="https://assets.ccbp.in/frontend/static-website/flats-list-card3-img.png" class="image1" />
+                <div class="sunrise-Detail-page-Container p-2">
+                    <h1 class="sunrise-detail-head">4BHK Flat</h1>
+                    <p class="sunrise-Home-page-para">A contemporary home with more color and vibrancy...</p>
+                </div>
+            </div>
+
+            <button class="btn button hover-scale" onclick="display('sectionHome')">Back</button>
+        </div>
+    </div>
+    
+    <script src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+   <script>
+        function display(sectionId) {
+            const sections = ['sectionHome', 'sectionDetailPage', 'section2BHK', 'section3BHK', 'section4BHK'];
+            sections.forEach(id => {
+                document.getElementById(id).style.display = (id === sectionId) ? 'block' : 'none';
+            });
+        }
+        
+        display('sectionHome');
+    </script>
+</body>
+
+</html>

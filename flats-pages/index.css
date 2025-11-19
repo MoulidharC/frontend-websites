@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+/* PAGE BACKGROUNDS */
+.sunrise-Home-page {
+    background-image: url("https://assets.ccbp.in/frontend/static-website/flats-list-bg.png");
+    background-size: cover;
+    height: 100vh;
+}
+
+/* HOME CARD */
+.sunrise-Home-page-Container {
+    background-color: #ffffff;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    text-align: center;
+    padding: 20px;
+    animation: slideUp 0.9s ease-in-out;
+}
+
+/* HEADINGS */
+.sunrise-Home-page-head {
+    color: #f19116;
+    font-family: "Bree Serif";
+    font-size: 42px;
+}
+
+/* SUBTEXT */
+.sunrise-Home-page-para {
+    color: #7b8794;
+    font-family: "Bree Serif";
+    font-size: 13px;
+}
+
+/* LIST PAGE */
+.sunrise-detail-head {
+    color: #0f0e46;
+    font-family: "Bree Serif";
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.image1 {
+    height: 150px;
+    width: 100px;
+}
+
+/* DETAIL BACKGROUND */
+.sunrise-detail-page-background {
+    background-color: #222222;
+    min-height: 100vh;
+    animation: fadeIn 1s ease;
+}
+
+.sunrise-Detail-page-Container {
+    background-color: #ffffff;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 80%;
+}
+
+/* DETAIL DESCRIPTIONS */
+.sunrise-Detail-card-page-para {
+    color: #ffffff;
+    font-family: "Bree Serif";
+    font-size: 13px;
+}
+
+/* IMAGES */
+.detail-image {
+    height: 200px;
+    width: 500px;
+}
+
+/* BUTTON STYLE */
+.button {
+    background-color: #f19116;
+    color: #ffffff;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 8px 20px;
+    border: none;
+    transition: 0.3s;
+}
+
+/* HOVER ANIMATION FOR BUTTON */
+.hover-scale:hover {
+    transform: scale(1.07);
+    background-color: #d87e13;
+}
+
+/* CARD HOVER EFFECT */
+.card-hover {
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.card-hover:hover {
+    transform: scale(1.03);
+    background-color: #fff2d6;
+    border-radius: 12px;
+}
+
+/* FADE-IN ANIMATION */
+.fade-in {
+    animation: fadeIn 1s ease;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+/* SLIDE-UP ANIMATION */
+.slide-up {
+    animation: slideUp 1s ease;
+}
+
+@keyframes slideUp {
+    0% { transform: translateY(40px); opacity: 0; }
+    100% { transform: translateY(0); opacity: 1; }
+}
