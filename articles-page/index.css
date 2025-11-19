@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+/* PAGE BACKGROUND */
+.artical-background {
+    background-color: #1b4a8f;
+    padding: 35px;
+    height: 100vh;
+    animation: fadeIn 1s ease;
+}
+
+/* HEADING */
+.artical-heading {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 32px;
+    animation: slideUp 1s ease;
+}
+
+.corousel-image{
+    width: 100%;
+    height: 50vh;
+}
+
+/* SUBTEXT */
+.artical-para {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 14px;
+    animation: fadeIn 1s ease;
+}
+
+/* CATEGORY CARDS */
+.artical-container {
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 12px;
+    height: 110px;
+    width: 150px;
+    margin: 12px;
+    transition: 0.3s;
+    box-shadow: 0px 0px 0px rgba(0,0,0,0);
+}
+
+/* 👇 Card Hover Scale + Shadow */
+.artical-container:hover {
+    transform: scale(1.07);
+    box-shadow: 0px 4px 18px rgba(0,0,0,0.25);
+    cursor: pointer;
+}
+
+/* ICONS */
+.image-icon {
+    height: 55px;
+    width: 55px;
+}
+
+/* CARD TITLES */
+.image-icon-head {
+    color: #1f2933;
+    font-family: "Roboto";
+    font-size: 15px;
+    margin-top: 8px;
+}
+
+/* DETAIL PAGE BACKGROUND */
+.detailPage-background {
+    background-color: #1b4a8f;
+    padding: 10px;
+    min-height: 100vh;
+    animation: fadeIn 1s ease;
+}
+
+/* TOPICS */
+.artical-unorderdlist {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 16px;
+    margin: 10px;
+}
+
+/* DETAIL PAGE HEADING */
+.detailpage-heading {
+    color: #ffffff;
+    font-family: "Roboto";
+    margin-top: 25px;
+    animation: slideUp 1s ease;
+}
+
+/* BUTTON STYLE */
+.button {
+    color: #ffffff;
+    border-color: #ffffff;
+    border-radius: 10px;
+    transition: 0.3s;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* 👇 Button Hover Animation */
+.button:hover {
+    background-color: #ffffff;
+    color: #1b4a8f;
+    transform: scale(1.08);
+}
+
+/* FADE-IN EFFECT */
+.fade-in {
+    animation: fadeIn 1s ease;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+/* SLIDE-UP EFFECT */
+.slide-up {
+    animation: slideUp 1s ease;
+}
+
+@keyframes slideUp {
+    0% { transform: translateY(40px); opacity: 0; }
+    100% { transform: translateY(0px); opacity: 1; }
+}
