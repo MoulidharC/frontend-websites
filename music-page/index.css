@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body{
+    font-family: "Bree Serif";
+}
+
+.background {
+    background-image: url("https://new-assets.ccbp.in/frontend/static-website/moon-stars-bg.png");
+    background-size: cover;
+    min-height: 100vh;
+    width: 100vw;
+}
+
+.music-heading {
+    font-family: "Bee Serif";
+    color: #ffffff;
+}
+
+.night-island-card-heading {
+    color: #ffe7bf;
+    font-family: "Bee Serif";
+
+
+}
+
+.night-island-bg-container {
+    background-image: url("https://d2clawv67efefq.cloudfront.net/ccbp-static-website/moon-bg.png");
+    height:60vh;
+    background-size: cover;
+    margin: 30px;
+}
+
+.button {
+    color: #ffffff;
+    border-radius: 20px;
+    font-family: "Bree Serif";
+    background-color: #8e97fb;
+    border-width: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.detail-card-discription {
+    color: #98a1bd;
+    font-family: "Bree-Serif";
+
+}
+
+.image {
+    width: 40vh;
+}
+
+.image1 {
+    width: 100vw;
+height: 60vh;
+}
