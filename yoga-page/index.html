@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Yoga Experience Platform</title>
+</head>
+
+<body>
+
+    <div id="sectionHome" style="display: block;">
+        <div class="yoga-background">
+            <h1 class="yoga-main-heading">
+                Discover the yogi life on the Yoga Experience Platform
+            </h1>
+
+            <img src="https://assets.ccbp.in/frontend/static-website/yoga-girl-with-headphones-img.png"
+                class="girl-image" />
+
+            <p>Yoga poses strengthen and open tight areas of the body.</p>
+
+            <button class="btn btn-primary-custom" onclick="display('sectionDetail-page')">
+                Get Started
+            </button>
+        </div>
+    </div>
+    <div id="sectionDetail-page" style="display:none;">
+        <div class="detail-background">
+            <div class="text-center">
+                <img src="https://assets.ccbp.in/frontend/static-website/yoga-girl-without-headphones-img.png"
+                    class="girl-image" />
+                <h4 class="yoga-main-heading1">Types of Yoga</h4>
+            </div>
+
+            <div class="yoga-detail-container">
+                <img src="https://assets.ccbp.in/frontend/static-website/yoga-card1-img.png" class="yoga-posture" />
+                <div>
+                    <h6 class="logo-head">Acro yoga</h6>
+                    <p class="logo-para">
+                        It stretches and relaxes your body, improves stamina and memory.
+                    </p>
+                </div>
+            </div>
+
+            <div class="yoga-detail-container">
+                <img src="https://assets.ccbp.in/frontend/static-website/yoga-card2-img.png" class="yoga-posture" />
+                <div>
+                    <h6 class="logo-head">Vinyasa yoga</h6>
+                    <p class="logo-para">
+                        It increases strength and helps build lean muscle mass throughout the body.
+                    </p>
+                </div>
+            </div>
+
+            <div class="yoga-detail-container">
+                <img src="https://assets.ccbp.in/frontend/static-website/yoga-card3-img.png" class="yoga-posture" />
+                <div>
+                    <h6 class="logo-head">Hatha yoga</h6>
+                    <p class="logo-para">
+                        It introduces beginners to relaxation techniques and basic asanas.
+                    </p>
+                </div>
+            </div>
+
+            <div class="yoga-detail-container">
+                <img src="https://assets.ccbp.in/frontend/static-website/yoga-card4-img.png" class="yoga-posture" />
+                <div>
+                    <h6 class="logo-head">Kundalini Yoga</h6>
+                    <p class="logo-para">
+                        It helps relax and restore the mind and body, improving flexibility and endurance.
+                    </p>
+                </div>
+            </div>
+
+            <div class="text-center">
+                <button class="btn btn-primary-custom" onclick="display('sectionHome')">
+                    Back
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+    <script>
+        function display(sectionId) {
+            const sections = ['sectionHome', 'sectionDetail-page'];
+            sections.forEach(id => {
+                document.getElementById(id).style.display = 'none';
+        });
+            document.getElementById(sectionId).style.display = 'block';
+    
+    }
+    
+    </script>
+</body>
+
+</html>
